@@ -16,7 +16,7 @@ app.use('/api/cart', cartRoutes)
 
 
 //DB connection
-mongoose.connect('mongodb+srv://lavanya95manda:wxZeto4Qd1uty3mY@cluster0.iwhfhll.mongodb.net/shoppyglobe')
+mongoose.connect('URL')
 
 .then(()=>
 {
